@@ -1,0 +1,28 @@
+table {
+    padding: 10px 10px 0 10px;
+    font-size: 40px;
+    display: table-cell;
+}
+tr{
+    line-height: 90%;
+    width: 20%;
+    padding: 5%;
+    text-align: center;
+}
+th{
+    width: 20%;
+    background: linear-gradient(#1c6d20, #5c782f);
+    color: #f2fbfd;
+    /*border-radius: 2px 2px 0 0;
+    border-bottom: thick;
+    opacity: 0.8;*/
+}
+td{
+    width:20%;
+    text-align: center;
+    background: #d2f1cf;
+    color: #1a1717;
+    opacity: 0.8;
+    border-radius: 2px;
+    text-shadow: #1d0404;
+}

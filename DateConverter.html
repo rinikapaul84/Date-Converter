@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date converter</title>
+    <link rel="stylesheet" href="DateConverter.css">
+    <script src="DateConverter.js"></script>
+    <script src="MyDate.js"></script>
+</head>
+<body>
+<header>
+    <h1>DATE CONVERTER</h1>
+</header>
+<main>
+<section>
+    <h3>CONVERT YOUR DATE </h3>
+    <h4>GREGORIAN to BANGLA</h4>
+    <div>
+        <form class="date">
+            <label>
+
+                <input id="gDay" type="number" name="gregorian date" placeholder="DD" >
+                <input id="gMon" type="number" name="gregorian date" placeholder="MM">
+                <input id="gYear" type="number" name="gregorian date" placeholder="YYYY">  <br>
+
+<!--                <input id="gDay" type="number" value="DD">-->
+<!--                <input id="gMon" type="number" value="MM">-->
+<!--                <input id="gYear" type="number" value="YYYY">-->
+            </label>
+        </form>
+    </div>
+    <div>
+        <!--            <button onclick="gSubmit()">Converting Bangla Date</button>-->
+        <input onclick="gSubmit()" type="submit" value="Click here to convert">
+        </div>
+
+      <div>
+        <form>
+            <label>
+                <input id="gResult" name="bangla date" placeholder="Bangla Date" type="text" readonly>
+            </label><br>
+        </form>
+    </div>
+
+</section>
+
+
+<section>
+    <h4>BANGLA to GREGORIAN</h4>
+    <div>
+        <form class="date">
+            <label>
+                <input id="bDay" name="gregorian date" placeholder="DD" type="number">
+                <input id="bMon" name="gregorian date" placeholder="MM" type="number">
+                <input id="bYear" name="gregorian date" placeholder="YYYY" type="number">
+            </label><br>
+        </form>
+    </div>
+    <div>
+        <!--            <button onclick="bSubmit()">Converting Bangla Date</button>-->
+
+        <input onclick="bSubmit()" type="submit" value="Click here to convert">
+        <form>
+            <label>
+                <input id="bResult" name="bangla date" placeholder="Gregorian Date" type="text" readonly>
+            </label><br>
+        </form>
+    </div>
+</section>
+</main>
+<footer>
+    <p>Created by <em>Rinika Paul</em></p>
+</footer>
+</body>
+</html>
